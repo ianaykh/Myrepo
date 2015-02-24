@@ -3,7 +3,7 @@ body {
 }
 
 header, main, footer {
-  min-width: 855px;
+  min-width: 900px;
 }
 
 header .container, main .container, footer .container {
@@ -29,6 +29,9 @@ header nav {
 main {
   background: white;
   overflow: auto;
+  font-family:Courier New;
+  padding-left:20px;
+  margin-bottom:20px;
 }
 
 main .left {
@@ -46,7 +49,12 @@ footer .left {
   width: 570px;
 }
 
+footer .contact {
+  float: left;
+  width: 570px;
+}
+
 footer .sitemap {
-  float: right;
-  width: 285px;
+  float: left;
+  width: 500px;
 }
