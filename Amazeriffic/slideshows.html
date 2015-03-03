@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+ </head>
+
+ <body>
+ 	
+	<p><a class = 'gallery' href="/home/anay/Public/Amazeriffic/1.jpg">image1</a> </p>
+	<p><a class = 'gallery' href="/home/anay/Public/Amazeriffic/2.jpg">image2</a> </p>
+	<p><a class = 'gallery' href="/home/anay/Public/Amazeriffic/3.jpg">image3</a> </p>
+	<p><a class = 'gallery' href="/home/anay/Public/Amazeriffic/4.jpg">image4</a> </p>
+	
+
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+       <script src="jquery.colorbox-min.js"></script>
+	<script>
+
+	$("a.gallery").colorbox({slideshow:'true',rel:'group4'});
+	$(document).bind('cbox_complete',function(){
+		setTimeout($.colorbox.next,25000);
+	});
+
+	</script>
+ </body>
+</html>
+
